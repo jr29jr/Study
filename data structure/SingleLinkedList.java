@@ -23,7 +23,7 @@ public class SingleLinkedList<T>{
     }
   }
   //frontData가 있는 노드뒤에 연결
-  public void addNodeBehind(T data,T frontData){
+  public void InsertBehind(T data,T frontData){
     Node<T> searchNode=this.search(frontData);
     if(searchNode == null){
       this.add(data);
