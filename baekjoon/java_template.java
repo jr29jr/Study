@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class algorithm_templet{
+class Main{
   static StringBuilder sb = new StringBuilder();
   static FastReader scan = new FastReader();
 
