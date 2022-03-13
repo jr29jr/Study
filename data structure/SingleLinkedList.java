@@ -50,7 +50,7 @@ public class SingleLinkedList<T>{
     return null;
   }
   //같은게 다중일 경우 앞의 1개만 제거
-  public boolean delNode(T data){
+  public boolean delete(T data){
     //빈 리스트일 경우
     if(this.head == null)
       return false;
