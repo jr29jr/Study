@@ -46,14 +46,12 @@ class Main{
         }
         else{
             //ans[k]는 0이잖아.. 이전방으로 가야지..
-            for(int i=ans[k]+1;i<=N;i++){
-                if(check[i]==0){
-                    check[i]=1;
-                    ans[k]=i;
-                    rec_func(k+1);
-                    ans[k]=0;
-                    check[i]=0;
-                }
+            for(int i=ans[k-1]+1;i<=N;i++){
+                check[i]=1;
+                ans[k]=i;
+                rec_func(k+1);
+                ans[k]=0;
+                check[i]=0;
             }
         }
 
