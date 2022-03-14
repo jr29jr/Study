@@ -1,5 +1,6 @@
+문제(15661과 동일하다)  
 https://www.acmicpc.net/problem/14889
+https://www.acmicpc.net/problem/15661
 
-알고리즘 -완전탐색  
 풀이  
-블로그 참고  
+https://jr30jr.tistory.com/27
