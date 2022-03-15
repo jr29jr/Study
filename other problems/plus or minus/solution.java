@@ -29,7 +29,7 @@ class Main{
         rec_func(k+1,value+numbers[k]);
       }
       else{
-        if(numbers[k] == 1 || numbers[k] == 0){
+        if(numbers[k] <= 1){
           rec_func(k+1,value+numbers[k]);
         }
         else{
